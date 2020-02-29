@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task_3_form</title>
+</head>
+
+<body>
+    <h1>form</h1>
+    <form action="">
+        <fieldset>
+            <legend>Second step</legend>
+            <label for="gender">Ты кто?</label> <br>
+            <select name="male/female" id="gender">
+                <option value="Ж">Ж</option>
+                <option value="М">М</option>
+                <option hidden disabled selected>выбери пож</option>
+            </select>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>Необходимо купить</legend>
+            <ol>
+                <li><input type="checkbox" id="check1"><label for="check1">Вода</label></li>
+                <li><input type="checkbox" id="check2"><label for="check2">Хлеб</label></li>
+                <li><input type="checkbox" id="check3"><label for="check3">Рыба</label></li>
+                <li><input type="checkbox" id="check4"><label for="check4">Мясо</label></li>
+            </ol>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <label for="about">Город проживания</label> <br>
+            <textarea name="cityMessage" id="about"></textarea>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <select>
+                <optgroup label="Пиво">
+                    <option value="Светлое">Светлое</option>
+                    <option value="Темное">Темное</option>
+                    <option value="Нефильтрованное">Нефильтрованное</option>
+                </optgroup>
+                <optgroup label="Чай">
+                    <option value="черный">черный</option>
+                    <option value="зеленый">зеленый</option>
+                    <option value="фруктовый">фруктовый</option>
+                </optgroup>
+            </select>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>Никотин?</legend>
+            <p><input type="radio" name="smoke" value="rad1">Курю<br>
+                <input type="radio" name="nosmoke" value="rad2">не курю<br>
+                <input type="submit">
+            </p>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Кнопки</legend>
+            <p><button>Отправить</button></p>
+            <p><input type="reset" value="Очистить"></p>
+
+        </fieldset>
+
+
+
+
+
+
+    </form>
+
+</body>
+
+
+
+</html>
